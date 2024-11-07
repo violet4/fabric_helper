@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fabric-helper"
+version = "0.1.0"
+description = ""
+authors = ["Violet Eldridge <github@violet-mica.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mistune = {git = "ssh://git@github.com/lepture/mistune.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
