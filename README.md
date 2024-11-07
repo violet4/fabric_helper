@@ -7,3 +7,5 @@ Use LLMs to analyze the structure and content of existing patterns to write new 
 Example usage:
 
 `fabric_helper 'please make a new pattern which can be used to help me organize and outline information. it needs to be especially skilled with markdown format, particularly nested bullet/numbered lists. i should be able to feed it an essay and ask it to generate a well structured bullet-point-format outline.'`
+
+* Automatically titles the pattern and places it in your patterns folder (for example, on linux that's `~/.config/fabric/patterns/my_new_pattern/system.md`) with an appropriate name befitting the new pattern.
